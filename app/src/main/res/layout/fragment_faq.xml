@@ -1,0 +1,295 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_marginBottom="30dp"
+              tools:context="com.collegedekho.FAQFragment">
+
+    <!--TODO: Update blank fragment layout -->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FAQ's"
+                android:textColor="@color/colorButtonGreen"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="1. What is the cost of living?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+
+                    android:text="Living expenses will differ depending upon the location of the institution, the type of accommodation preferred and on the personal expenditure of the student. On average, we estimate that a student will spend between €6,000 and €11,000 per year depending on location and lifestyle."/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="2. Do I need to register with the police?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="All non-Irish nationals, who are not citizens of the EU/EEA or Switzerland, must register in person with the Garda National Immigration Bureau (GNIB) after arrival and after completion of registration at your third level institution. The GNIB will issue you with a residence permit/GNIB card."/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="3. How do I get a visa?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="If you are an EU citizen, there are no visa requirements when entering Ireland. If you are not an EU citizen, please contact your nearest Irish Embassy or Consulate to find out whether or not you require an entry visa or you may enquire from the Department of Foreign Affairs. Those who do not have an Irish diplomatic mission in their home country should download a visa application form well in advance of their departure.   Please note that it is possible for international students who require a visa and are residing in certain countries to apply directly to the Department of Foreign Affairs online. Click here for a full list of these countries and the link to the online application form.
+Note: You will be required to have accepted an offer of a recognised programme of study in Ireland and to have a receipt of payment letter from a college in Ireland before you can begin the process of applying for your visa overseas to study in Ireland."/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="4. Do I have to pay for medical insurance?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="Students from EU member states who are in possession of the European Health Insurance Card (EHIC) are entitled to public health services in Ireland.  This card is available from health authorities in your home country.  Further information to your rights on healthcare while here can be obtained on the European Health Insurance Card website.
+
+For students from non-EU countries, you will be required to have medical insurance in place in order to be granted a visa."/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="5. Can I study part time?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="If you are from a non-EU country, you must complete a minimum of 15 hours scheduled contact time per week in order to be eligible to be eligible for a visa to study in Ireland. Please see the following Department of Justice web site for more information. If you are an English language study wishing to study for less than 90 days in Ireland and combine learning with other tourist pursuits, you will be classed as an educational tourist and subject to visit/holiday visa rules."/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="6. What will the weather be like?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="Ireland's climate can be summed up as being mild, moist and changeable with abundant rainfall and a lack of temperature extremes. Because the island is hugged all year round by the warm influence of the Gulf Stream, Ireland is much warmer than other countries that share its latitude. The Gulf Stream also ensures that the Irish coastline remains ice-free throughout winter. Extreme winters are rare but they do happen on the odd occasion when Ireland's temperatures plummet."/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="7. How do I open a bank account? "
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="In order to open a bank account, you will need two forms of identification. Irish banks are obliged to establish your identity and verify your address. You cannot use the same document as proof of both your identity and your address. These are minimum requirements and it is at the discretion of the bank to look for further information.
+
+"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="8. Can I work during or after my studies?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="Non-EU students who are approved to study in Ireland with higher education institutions listed on the ILEP, can avail of casual work to help support themselves while in Ireland. Students are allowed to work part-time (up to 20 hours a week) or full-time (up to 40 hours a week) during holiday periods. "/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="9. Are there scholarships?"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1dp"
+                    android:text="Yes. A small number of scholarships for overseas students are available from the universities and colleges. These are awarded solely at the discretion of the individual institutions who set down their own criteria for eligibility. Students are advised to contact the institution of their choice directly, to obtain information."/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorBackgroundlite"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

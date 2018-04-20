@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="35dp"
+             tools:context="com.collegedekho.MainFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/logo"
+                android:gravity="center"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sampleimg"
+                android:gravity="center"/>
+            <!--<android.support.v4.view.ViewPager-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="left"
+                android:text="Overview"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="left"
+                android:text="Enterprise Ireland manages the Education in Ireland national brand under the authority of the Minister for Education and Skills. Enterprise Ireland is responsible for the promotion of Irish Higher Education Institutions overseas.
+Enterprise Ireland is the Irish state agency responsible for supporting the development of manufacturing and internationally traded services companies. Enterprise Ireland provides funding and supports for companies - from entrepreneurs with plans for a high potential start-up through to large companies expanding their activities, improving efficiency and growing export sales. We also provide funding and supports for college based researchers to assist in the development, protection and transfer of technologies into industry via licensing or spin-out companies."
+                android:visibility="visible"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <VideoView
+                    android:id="@+id/videoplayframe"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:focusable="true"
+                    android:visibility="visible"/>
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:visibility="visible"/>
+            </FrameLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

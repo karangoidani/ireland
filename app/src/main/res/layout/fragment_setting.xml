@@ -1,0 +1,208 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             tools:context="com.collegedekho.SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/sampleimg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Dublin City University (DCU)"
+                android:textColor="@color/colorButtonGreen"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:text="Established:"
+                        android:textColor="@color/colorTextNormal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:inputType="phone"
+                        android:text="Tel:"
+                        android:textColor="@color/colorTextNormal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:inputType="textEmailAddress"
+                        android:text="Email Address: "
+                        android:textColor="@color/colorTextNormal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:inputType="textWebEmailAddress"
+                        android:text="Website:"
+                        android:textColor="@color/colorTextNormal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:text="Address:"
+                        android:textColor="@color/colorTextNormal"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:maxLines="1"
+                        android:text="1975"
+                        android:textColor="@color/colorTextNormal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:autoLink="phone"
+                        android:gravity="left"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:text="+353 1 700 7411"
+                        android:textColor="@color/colorTextNormal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:autoLink="email"
+                        android:gravity="left"
+                        android:inputType="textEmailAddress"
+                        android:text="international.office@dcu.ie"
+                        android:textColor="@color/colorTextNormal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:autoLink="web"
+                        android:gravity="left"
+                        android:inputType="textWebEmailAddress"
+                        android:text="www.dcu.ie/international"
+                        android:textColor="@color/colorTextNormal"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="left"
+                        android:maxLines="2"
+                        android:text="Dublin City University,Glasnevin, Dublin 9."
+                        android:textColor="@color/colorTextNormal"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Why Study at Dublin City University (DCU) ?"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="left"
+                    android:text="    DCU offers highest international quality, employment-relevant undergraduate and postgraduate degrees, study abroad placements and research opportunities with several national centres of excellence.
+   DCU’s Graduate Attributes Programme gives students a unique opportunity to develop a distinct set of skills and competencies to achieve success in current economic climate.
+DCU students are consistently among the highest number of employed graduates in Ireland. The university offers a competitive international student scholarship scheme at undergraduate and postgraduate level.
+    DCU has been commended for its high levels of student engagement and, through the various support and development opportunities on campus, students have the opportunity to develop themselves personally, academically and professionally."
+                    android:textColor="@color/colorTextNormal"
+                    />
+
+                <Button
+                    android:id="@+id/button_Apply"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorHotLead"
+                    android:gravity="center"
+                    android:text=" Apply "
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    >
+
+                </View>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
